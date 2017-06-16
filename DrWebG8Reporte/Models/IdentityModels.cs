@@ -20,6 +20,11 @@ namespace DrWebG8Reporte.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Persona> Personas { get; set; }
+        public DbSet<Centro> Centroes { get; set; }
+        public DbSet<Cita> Citas { get; set; }
+        public DbSet<Especialidad> Especialidads { get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
