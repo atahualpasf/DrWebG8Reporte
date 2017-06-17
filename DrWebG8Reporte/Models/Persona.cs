@@ -14,6 +14,7 @@ namespace DrWebG8Reporte.Models
         public string Telefono { get; set; }
         public string Genero { get; set; }
         public DateTime FechaNacimiento { get; set; }
+        public DateTime FechaCreacion { get; set; }
         public string Direccion { get; set; }
 
         public virtual ApplicationUser ApplicationUser { get; set; }

@@ -24,6 +24,13 @@ namespace DrWebG8Reporte.Models
         public DbSet<Centro> Centroes { get; set; }
         public DbSet<Cita> Citas { get; set; }
         public DbSet<Especialidad> Especialidads { get; set; }
+        public DbSet<Diagnostico> Diagnosticoes { get; set; }
+        public DbSet<Enfermedad> Enfermedads { get; set; }
+        public DbSet<Historia> Historias { get; set; }
+        public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<RecursoHospitalario> RecursoHospitalarioes { get; set; }
+        public DbSet<Almacen> Almacens { get; set; }
+        public DbSet<UsoRecurso> UsoRecursoes { get; set; }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

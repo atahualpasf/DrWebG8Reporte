@@ -15,5 +15,7 @@ namespace DrWebG8Reporte.Models
 
         public virtual ICollection<Empleado> Empleados { get; set; }
         public virtual ICollection<Paciente> Pacientes { get; set; }
+        public virtual ICollection<Cita> Citas { get; set; }
+        public virtual ICollection<Almacen> Almacenes { get; set; }
     }
 }
