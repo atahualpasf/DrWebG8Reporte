@@ -10,7 +10,7 @@ namespace DrWebG8Reporte.Models
         public string rol { get; set; }
         public double Sueldo { get; set; }
 
-        public virtual ICollection<Especialidad> Especialidades { get; set; }
+        public virtual Especialidad Especialidad { get; set; }
         public virtual ICollection<Centro> Centros { get; set; }
     }
 }

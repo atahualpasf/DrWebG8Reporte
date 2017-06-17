@@ -214,6 +214,22 @@
     <Compile Include="Migrations\201706170116292_AgregandoAlmacenUsoRecurso.Designer.cs">
       <DependentUpon>201706170116292_AgregandoAlmacenUsoRecurso.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706170313363_ModEspecialidadEmpleado.cs" />
+    <Compile Include="Migrations\201706170313363_ModEspecialidadEmpleado.Designer.cs">
+      <DependentUpon>201706170313363_ModEspecialidadEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706170321256_ModRelCitaConsulta.cs" />
+    <Compile Include="Migrations\201706170321256_ModRelCitaConsulta.Designer.cs">
+      <DependentUpon>201706170321256_ModRelCitaConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706170332051_EliRelMedicinaRecipe.cs" />
+    <Compile Include="Migrations\201706170332051_EliRelMedicinaRecipe.Designer.cs">
+      <DependentUpon>201706170332051_EliRelMedicinaRecipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706170334515_EliRelImplementoConsulta.cs" />
+    <Compile Include="Migrations\201706170334515_EliRelImplementoConsulta.Designer.cs">
+      <DependentUpon>201706170334515_EliRelImplementoConsulta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Almacen.cs" />
@@ -330,6 +346,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706170116292_AgregandoAlmacenUsoRecurso.resx">
       <DependentUpon>201706170116292_AgregandoAlmacenUsoRecurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706170313363_ModEspecialidadEmpleado.resx">
+      <DependentUpon>201706170313363_ModEspecialidadEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706170321256_ModRelCitaConsulta.resx">
+      <DependentUpon>201706170321256_ModRelCitaConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706170332051_EliRelMedicinaRecipe.resx">
+      <DependentUpon>201706170332051_EliRelMedicinaRecipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706170334515_EliRelImplementoConsulta.resx">
+      <DependentUpon>201706170334515_EliRelImplementoConsulta.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

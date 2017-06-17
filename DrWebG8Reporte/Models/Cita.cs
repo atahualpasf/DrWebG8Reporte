@@ -18,7 +18,6 @@ namespace DrWebG8Reporte.Models
         public virtual Empleado Doctor { get; set; }
         public virtual Empleado Secretaria { get; set; }
         public virtual Centro Centro { get; set; }
-        public virtual Consulta Consulta { get; set; }
 
     }
 }

@@ -10,7 +10,5 @@ namespace DrWebG8Reporte.Models
         public int Id { get; set; }
         public string Tratamiento { get; set; }
         public string Recomendacion { get; set; }
-
-        public virtual ICollection<Medicina> Medicinas { get; set; }
     }
 }
